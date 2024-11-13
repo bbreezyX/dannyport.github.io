@@ -1,0 +1,294 @@
+    #contact {
+        animation: fadeIn 2s ease-in-out;
+    }
+
+    #contact .form-contact {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    #contact h2 {
+        font-weight: bold;
+        font-family: "Montserrat";
+    }
+    
+    #contact .form-control {
+        border: 2px solid #000000;
+
+    }
+    
+    #contact .btn {
+        background-color: #000000;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+    
+    #contact .btn:hover {
+        background-color: #0056b3;
+    }
+
+    #contact .form-about {
+        font-family: "Montserrat";
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+    
+    .custom-navbar {
+        
+    }
+    .rounded-navbar {
+        border-radius: 15px;
+        background-color: #343a40;
+        padding: 0.5rem 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 2s ease-in-out;
+    }
+
+    .section {
+        margin-top: 2.5rem;
+    }
+
+    .project-section {
+        margin-top: 3rem!important;
+        margin-bottom: 3rem!important;
+    }
+
+    .brand-logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: "Montserrat";
+    }
+
+    .brand-logo:hover {
+        color: #0056b3; /* Warna saat hover */
+    }      
+
+    .separator {
+        width: 1px;
+        height: 30px;
+        background-color: #ccc;
+        margin: 0 15px;
+    }
+
+    @media (max-width: 768px) {
+        .separator {
+            display: none;
+        }
+    }
+/* About Style */
+    #about {
+        border: 2px solid; /* Border berwarna biru */
+        border-radius: 10px;       /* Membuat border melengkung */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+        padding: 20px;             /* Ruang di dalam kontainer */
+        background-color: #f8f9fa; /* Warna latar belakang */
+        animation: fadeIn 2s ease-in-out;
+    }
+    
+    #about h2 {
+        font-family: "Montserrat";
+        font-weight: 800;
+        animation: fadeIn 2s ease-in-out;
+        
+    }
+    
+    /* Keyframes untuk animasi */
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .about-p {
+        font-family: "Montserrat";
+        font-size: 1.2rem; 
+        line-height: 1.6; 
+        animation: fadeIn 2s ease-in-out;
+        
+    }
+    /* Project Style */
+
+    /* Styling untuk Section Projects */
+    #projects {
+        text-align: center;
+        animation: fadeIn 2s ease-in-out;
+    }
+
+    #projects h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: "Montserrat";
+        margin-bottom: 2rem;
+    }
+
+    /* Styling untuk Card Project */
+    .project-card {
+        border: none;
+        box-shadow: 0px 0px 40px 12px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border-radius: 15px;
+        font-family: "Montserrat";
+        overflow: hidden; /* Menambahkan ini untuk memastikan konten ikut rounded */
+    }    
+
+    .project-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Styling untuk Gambar di dalam Card */
+    .project-card img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+    /* Styling untuk Judul dan Deskripsi */
+    .project-card .card-title {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 0.5rem;
+    }
+
+    .project-card .card-text {
+        color: #666;
+        font-size: 1rem;
+    }
+
+    /* Margin untuk card */
+    .mb-4 {
+        margin-bottom: 2rem;
+    }
+
+    /* Responsif untuk Mobile */
+    @media (max-width: 768px) {
+        #projects h2 {
+            font-size: 2rem;
+        }
+
+        .project-card .card-title {
+            font-size: 1.25rem;
+        }
+
+        .project-card .card-text {
+            font-size: 0.9rem;
+        }
+    }
+
+
+
+    
+    .divider {
+        height: 2px;
+        width: 100%;
+        background: linear-gradient(
+            to right,
+            transparent 10%,
+            #ff1e00 35%,
+            #6c757d 50%,
+            #ff1e00 65%,
+            transparent 90%
+        );
+        margin: 20px 0;
+        border-radius: 2px;
+    }
+    
+    .section-title {
+        font-weight: bold;
+        font-family: "Montserrat";
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .education-section,
+    .experience-section {
+        margin-bottom: 20px;
+        font-family: "Montserrat";
+        animation: fadeIn 2s ease-in-out;
+    }
+    
+    .education-list,
+    .experience-list {
+        margin: 0;
+        padding-left: 2rem;
+    }
+    
+    .education-list li,
+    .experience-list li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    
+    .experience-description {
+        margin-bottom: 1px;
+        padding-top: 10px;
+    }
+
+    .custom-navbar {
+        border-radius: 15px;
+        background-color: #2a2a2a;
+        padding: 0.5rem 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-family: Arial, Helvetica, sans-serif;
+        gap: 0;
+    }
+
+    .custom-nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .custom-nav .custom-nav-link {
+        margin: 0 15px;
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-weight: 800;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .custom-nav .custom-nav-link:hover {
+        color: #ff0000;
+    }
+
+    
+    /* Animasi saat Navbar toggle */
+    .navbar-collapse.collapsing {
+        height: auto;
+        overflow: hidden;
+        transition: height 0.3s ease-in-out;
+        flex-grow: 0; /* Agar tidak memenuhi lebar layar */
+    }
+
+    .navbar-collapse.show {
+        height: auto;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hr-custom {
+        border: 0;
+        border-top: 2px solid #007bff;
+        width: 50%;
+        margin: 20px auto;
+    }
+
+
+    /* Custom CSS */
+    .social-icon {
+        color: #000000; /* Ganti dengan warna yang diinginkan */
+        transition: color 0.3s ease;
+    }
+
+    .social-icon:hover {
+        color: #ff0000; /* Warna saat di-hover */
+    }
+
+
